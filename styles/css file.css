@@ -97,6 +97,8 @@ header {
   background-color: var(--c-background-highlights);
   text-align: center;
   color: var(--base-font-color);
+  
+  font-size: 150%;
 }
 
 footer {
@@ -110,4 +112,20 @@ main {
 
 article a {
   color: var(--c-magenta);
+}
+
+article a:hover {
+  color: orange
+}
+
+article h1, article h3, article p {
+  border: solid 3px var(--c-cyan);
+}
+
+header h1 {
+  color: var(--c-yellow);
+}
+
+nav ul {
+  list-style: none;
 }
