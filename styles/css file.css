@@ -128,4 +128,30 @@ header h1 {
 
 nav ul {
   list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  width: 100%; 
+}
+
+nav li {
+display: flex;
+}
+
+aside {
+  color: var(--c-green);
+}
+
+aside a {
+  color: var(--c-red);
+}
+
+aside a:hover {
+  color: var(--c-blue);
+}
+
+body {
+  max-width: 800px;
 }
