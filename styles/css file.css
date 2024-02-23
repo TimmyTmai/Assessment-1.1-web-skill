@@ -90,7 +90,7 @@
 }
 
 body {
-  background-color: var(--c-background-color);
+  background-color: var(--c-background-color); 
 }
 
 header {
@@ -118,7 +118,7 @@ article a:hover {
   color: orange
 }
 
-article h1, article h3, article p {
+article .Subsection {
   border: solid 3px var(--c-cyan);
 }
 
@@ -154,4 +154,21 @@ aside a:hover {
 
 body {
   max-width: 800px;
+}
+
+article h2, h3 {
+  padding-top: 50px;
+}
+
+
+main {
+  display: flex;
+}
+
+article {
+  width: 70%;
+}
+
+aside {
+  width: 30%;
 }
